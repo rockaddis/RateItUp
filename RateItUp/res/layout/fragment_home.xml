@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg">
+    
+<!--     <TextView
+        android:id="@+id/txtLabel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="16dp"
+        android:text="Home View"/> -->
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_centerInParent="true" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bar_btn" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/res_btn" />
+            
+        </LinearLayout>
+        
+     <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button3"
+               android:layout_width="135dp"
+                android:layout_height="135dp"
+                 android:background="@drawable/hotel_btn"
+                 android:layout_marginRight="10dp"
+                  android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@drawable/event_btn"
+                 android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+        
+     <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button5"
+               android:layout_width="135dp"
+                android:layout_height="135dp"
+                 android:background="@drawable/mall_btn"
+                 android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@drawable/gym_btn"
+                />
+        </LinearLayout>
+        
+        </LinearLayout>
+  <!--   <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel"
+        android:src="@drawable/ic_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/> -->
+    
+
+</RelativeLayout>
